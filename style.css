@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	margin: 200px 0 0 400px;
+	width: 200px;
+	height: 200px;
+	background: #000;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: width 2s linear, height 5s ease-in-out;
+}
+
+div:hover {
+	width: 1488px;
+	height: calc(200px * 2)
+}
